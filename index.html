@@ -12,12 +12,25 @@
 <div class='wrapper'>
     <h1 id='title'>Quiz App</h1>
     
-    <p>What's 2 + 2?</p>
-    <input id='answer' value=''/>
-    <br />
-    <br />
-    <p id='result'></p>
-    <button type='button' onclick='myAnswer()'>See Results</button>
+    <div class='group'>
+        <h2 id='question0'></h2>
+        <input id='answer0'>
+    </div>
+    <div class='group'>
+        <h2 id='question1'></h2>
+        <input id='answer1'>
+    </div>
+    <div class='group'>
+        <h2 id='question2'></h2>
+        <input id='answer2'>
+    </div>
+    <div class='group'>
+        <h2 id='question3'></h2>
+        <input id='answer3'>
+    </div>
+    <button onclick='testResult()'>See Result</button>
+    <h1 class='correct'>Correct:</h1>
+    <h1 class='incorrect'>Incorrect:</h1>
 </div>
 
 
